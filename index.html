@@ -1,0 +1,575 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title> aplicacion diez</title>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/tema-app10.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine2/style.css" />
+<script type="text/javascript" src="engine2/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/fuerte.jpg','imagenes/sustitucion.jpg','imagenes/metepec4.jpg','imagenes/vive2.jpg','imagenes/cerro2.jpg','imagenes/ovni2.jpg','imagenes/ovni3.jpg')">
+
+<div data-role="page" id="Principal" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regrsar" data-back-btn-theme="b">
+<h1>Atlixco,Puebla</h1>
+</div>
+<div data-role="main" class="ui-content">
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/visor0.jpg" alt="visor0" title="visor0" id="wows1_0"/></li>
+		<li><img src="data1/images/visor1.jpg" alt="visor1" title="visor1" id="wows1_1"/></li>
+		<li><img src="data1/images/visor2.jpg" alt="visor2" title="visor2" id="wows1_2"/></li>
+		<li><img src="data1/images/visor3.jpg" alt="visor3" title="visor3" id="wows1_3"/></li>
+		<li><img src="data1/images/visor4.jpg" alt="visor4" title="visor4" id="wows1_4"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/visor6.jpg" alt="http://wowslider.com/" title="visor6" id="wows1_5"/></a></li>
+		<li><img src="data1/images/visor7.jpg" alt="visor7" title="visor7" id="wows1_6"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="visor0"><span><img src="data1/tooltips/visor0.jpg" alt="visor0"/>1</span></a>
+		<a href="#" title="visor1"><span><img src="data1/tooltips/visor1.jpg" alt="visor1"/>2</span></a>
+		<a href="#" title="visor2"><span><img src="data1/tooltips/visor2.jpg" alt="visor2"/>3</span></a>
+		<a href="#" title="visor3"><span><img src="data1/tooltips/visor3.jpg" alt="visor3"/>4</span></a>
+		<a href="#" title="visor4"><span><img src="data1/tooltips/visor4.jpg" alt="visor4"/>5</span></a>
+		<a href="#" title="visor6"><span><img src="data1/tooltips/visor6.jpg" alt="visor6"/>6</span></a>
+		<a href="#" title="visor7"><span><img src="data1/tooltips/visor7.jpg" alt="visor7"/>7</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wowslider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+<div data-role="collapsible" data-content-theme="false">
+</div>
+</div>
+<div>
+<center>
+  <div data-role="main" class="ui-content"> </div>
+<div></center>
+<ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Atlixco de las Flores</h2>
+ <p> Se muestra la historia</p>
+ </a>
+ </li>
+ <li class="ui-first-child ui-last-child">
+ <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+  <h2>Exconvento de atlixco </h2>
+  <p> Se muestra la historia</p>
+  </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+  <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+  <h2>Casa de la Ciencia,atlixco</h2>
+  <p> Muestra la Información</p>
+  </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+  <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+  <h2>Metepec,Atlixco</h2>
+  <p> Muestra el centro vacacional</p>
+  </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+  <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+  <h2>Viveros de Cabrera</h2>
+  <p>Muestra la Información</p>
+  </a>
+  </li>
+   <li class="ui-first-child ui-last-child">
+  <a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+  <h2>Iglesia de San Miguel</h2>
+  <p>Muestra la Información</p>
+  </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+  <a href="#Pagina7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+  <h2>Fascinan avistamientos de OVNIS en Atlixco, Puebla</h2>
+  <p>Muestra la Información</p>
+  </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+  <a href="#Pagina8" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+  <h2>Villa iluminada</h2>
+  <p>Muestra la Información</p>
+  </a>
+  </li>
+  </ul>
+  </div>
+  <div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>BIOGRAFIA </h1>
+<div>
+<br>
+</div>
+<div>
+<p>CENTRO DE BACHILLERATO TECNOLOGICO INDUTRIAL Y DE SERVICIO</p>
+<p>FIDEL PEREZ VAZQUEZ</p>
+<p>4 H PROGRAMACION</p>
+<img src="imagenes/yooo.jpg" width="50%" height="50%"></div>
+</div>
+</div>
+  <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+  <div><img src="res/android/mdpi.png" width="128" height="128">
+  </div>
+  <div>
+  <h4>Tierra que Florece</h4>
+  <h4>Fidel Perez Vazquez </h4>
+  </div>
+  </div>
+  </div>
+  
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+  <h2>Atlixco de las Flores</h2>
+  
+  </div>
+  <div data-role="content" align="center">
+  <div>
+  <h4>Se localiza a 25 kilómetros de la ciudad de Puebla, capital de la entidad homónima y tiene dos relevantes vías de ingreso, la carretera federal 190 y la más actual Autopista Vía Atlixcáyotl.
+
+En la actualidad, es una dinámica ciudad con una población superior a los cien mil habitantes, los cuales han conseguido combinar un notable crecimiento urbano con una vasta herencia de arquitectura novohispana, creada por los fundadores del lugar. Actualmente estos edificios históricos integran uno de los atractivos más importantes de este Pueblo Mágico.
+
+Un paseo por el zócalo de Atlixco es una vivencia magnífica, ya que los visitantes pueden degustar deliciosos helados o bien ricos platillos en alguno de los muchos restaurantes que allí se ubican. Es aconsejable saborear la cecina de Atlixco, el consomé, o truchas preparadas en las versiones más variadas.
+
+No lejos del zócalo de este Pueblo Mágico se encuentra el Mercado, donde se expenden numerosos productos, como tortillas preparadas a mano y chapulines fritos preparados con limón y sal. Es admirable como Atlixco de las Flores preserva sus costumbres y tradiciones.
+
+Año con año en el mes de septiembre, el municipio exhibe lo más típico de su producción por medio de su feria regional, sus variadas danzas, la hermosura de sus flores, su multifacética gastronomía y todo lo que este municipio y esta entidad tienen para ofrecer a los visitantes nacionales y extranjeros.
+
+Ornamenta el panorama el volcán Popocatépetl, mismo que ha visto florecer y declinar diferentes culturas de la región y que sirve como referente de sus límites geográficos. Una acertada recomendación es subir a la cima del Cerro de San Miguel, para contemplar Atlixco desde los miradores y para quienes aún tengan fuerzas suficientes, ascender por una escalinata hasta la ermita del Arcángel San Miguel.
+
+Cuando se emprenda el descenso no hay que perderse el Ex Convento Franciscano y la iglesia parecida a un fuerte, única en la entidad, que allí se encuentra. Desde este lugar se pueden observar notables paisajes.
+
+Dos propuestas de recorridos muy interesantes en Atlixco son las siguientes. La primera va de Viveros de Cabrera al Cerro de San Miguel pasando por el callejón Chicomecoatl, la calle Circunvalación Xochiquetzal y la explanada del cerro donde se realiza la festividad más importante de la comunidad: el "El HueyAtlixcáyotl”.
+
+El otro recorrido a considerar comienza en el zócalo de la ciudad y termina en el Cerro de San Miguel. En este caso el paseo lleva a los visitantes por la Avenida Miguel Hidalgo, la antigua Iglesia de la Tercer Orden, pasando por la calzada 16 de septiembre, la Plazuela Fray Toribio de Benavente y el Convento e Iglesia de San Francisco hasta arribar a la explanada del cerro.</h4>
+ <div data-role="main" class="ui-content" align="center">
+  <div style="width:50%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+  <li class="ui-first-child ui-last-child">
+  <a href="http://www.mexicoquerido.com.mx/puebla/es/destinos/dePdes.php?_idDestino=22" data-role="button" id="beep">
+  <h6>clic Aquí</h6>
+  </a>
+  </li>
+  </ul>
+  </div>
+  </div>
+   <center>
+    <div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h2>Antecedentes</h2>
+<div>
+<br>
+</div>
+<div>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('antecedentes','','imagenes/visor1.jpg',1)"><img src="imagenes/atlixco7.jpeg" width="220" height="308" id="antecedentes"></a></div>
+</div>
+</div>
+<div>
+   </center>
+  </div>
+  </div>
+  <div data-role="footer" data-theme="b" data-position="fixed">
+  <h4> Tierra que Florece</h4>
+  </div>
+  </div>
+  
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+  <h3>Ex-convento del Carmen, una de las construcciones más antiguas de Atlixco</h3>
+  </div>
+<div data-role="content" align="center">
+  <div>
+    <p>El&nbsp;Ex-convento del Carmen,&nbsp;es una de  las&nbsp;construcciones con mayor antigüedad ubicado en el municipio de  Atlixco, Puebla. Fundado por la Orden de los Carmelitas.</p>
+    <p>Su construcción data de 1600 a 1620&nbsp;y contaba con  una iglesia, un par de claustros y una huerta, convirtiéndolo así en uno de los  edificios arquitectónicos más grandes de Atlixco.</p>
+    <p>Este tipo de arquitectura sencilla lo relaciona con el  convento de San Ángel&nbsp;en la Ciudad de México.</p>
+<h4>&nbsp;</h4>
+<h3>Una arquitectura al estilo barroco</h3>
+<center><h2>Conoce mas dando clic aqui</h2></center>
+<div data-role="main" class="ui-content" align="center">
+  <div style="width:50%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+  <li class="ui-first-child ui-last-child">
+  <a href="https://www.zonaturistica.com/atractivo-turistico/1160/exconvento-del-carmen-atlixco.html" data-role="button" id="beep">
+  <h6>clic Aquí</h6>
+  </a>
+  </li>
+  </ul>
+  </div>
+  </div>
+  <div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h3> Foto del Exconvento </h3>
+<div>
+<br>
+</div>
+<div>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image24','','imagenes/carmen1.jpg',1)"><img src="imagenes/carmen2.jpg" width="300" height="300" id="Image24"></a></div>
+</div>
+</div>
+</center>
+ </div>
+  </div>
+  <div data-role="footer" data-theme="b" data-position="fixed">
+  <h4>Tierra que Florece</h4>
+  </div>
+  </div>
+  <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+  <h3>CASA DE LA CIENCIA</h3>
+  </div>
+<div data-role="content" align="center">
+  <div>
+    <p>La Casa de la Ciencia&nbsp;es un museo educativo  dependiente del Instituto Universitario de Puebla A.C., y tiene por vocación el  fortalecimiento del conocimiento tecnológico y científico. Su misión principal  es la divulgación de dicho conocimiento entre la población en general, y en  especial entre los estudiantes de diferentes niveles educativos pertenecientes  a la ciudad de&nbsp;Atlixco,&nbsp;Puebla.</p>
+    <p>Su fundación data del año 1997 y es parte de un proyecto  pedagógico que tiene sus antecedentes en la Casa de la Cultura creada en la  misma ciudad durante la década de los sesentas.</p>
+<h4>&nbsp;</h4>
+<center><h2>Conoce mas dando clic aqui</h2></center>
+<div data-role="main" class="ui-content" align="center">
+  <div style="width:50%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+  <li class="ui-first-child ui-last-child">
+  <a href="http://www.ciencia.cc/actividades/1997/scihouse.html" data-role="button" id="beep">
+  <h6>CASA DE LA CIENCIA</h6>
+  </a>
+  </li>
+  </ul>
+  </div>
+  </div>
+  <div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h3> Foto de la historia </h3>
+<div>
+<br>
+</div>
+<div>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image24','','imagenes/casa0.jpg',1)"><img src="imagenes/casa1.jpg" width="300" height="300" id="Image24"></a></div>
+</div>
+</div>
+</center>
+ </div>
+  </div>
+  <div data-role="footer" data-theme="b" data-position="fixed">
+  <h4>Tierra que Florece</h4>
+  </div>
+  </div>
+  
+  <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+  <h3>Centro Vacacional Metepec,Atlixco</h3>
+  </div>
+ 
+<div data-role="content" align="center">
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container2">
+<div class="ws_images"><ul>
+		<li><img src="data2/images/metepec0.jpg" alt="metepec0" title="metepec0" id="wows2_0"/></li>
+		<li><img src="data2/images/metepec1.jpg" alt="metepec1" title="metepec1" id="wows2_1"/></li>
+		<li><img src="data2/images/metepec2.jpg" alt="metepec2" title="metepec2" id="wows2_2"/></li>
+		<li><img src="data2/images/metepec3.jpg" alt="metepec3" title="metepec3" id="wows2_3"/></li>
+		<li><img src="data2/images/metepec4.jpg" alt="metepec4" title="metepec4" id="wows2_4"/></li>
+		<li><img src="data2/images/metepec5.jpg" alt="metepec5" title="metepec5" id="wows2_5"/></li>
+		<li><a href="http://wowslider.net"><img src="data2/images/metepec6.jpg" alt="http://wowslider.net/" title="metepec6" id="wows2_6"/></a></li>
+		<li><img src="data2/images/metepec7.jpg" alt="metepec7" title="metepec7" id="wows2_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="metepec0"><span><img src="data2/tooltips/metepec0.jpg" alt="metepec0"/>1</span></a>
+		<a href="#" title="metepec1"><span><img src="data2/tooltips/metepec1.jpg" alt="metepec1"/>2</span></a>
+		<a href="#" title="metepec2"><span><img src="data2/tooltips/metepec2.jpg" alt="metepec2"/>3</span></a>
+		<a href="#" title="metepec3"><span><img src="data2/tooltips/metepec3.jpg" alt="metepec3"/>4</span></a>
+		<a href="#" title="metepec4"><span><img src="data2/tooltips/metepec4.jpg" alt="metepec4"/>5</span></a>
+		<a href="#" title="metepec5"><span><img src="data2/tooltips/metepec5.jpg" alt="metepec5"/>6</span></a>
+		<a href="#" title="metepec6"><span><img src="data2/tooltips/metepec6.jpg" alt="metepec6"/>7</span></a>
+		<a href="#" title="metepec7"><span><img src="data2/tooltips/metepec7.jpg" alt="metepec7"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wowslider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine2/wowslider.js"></script>
+<script type="text/javascript" src="engine2/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+  <div><h4>Bello Centro Vacacional, localizado en el Estado de Puebla, inmerso en un bosque que enriquece el espíritu con su apacible atmósfera. En Atlixco-Metepec usted disfrutará de actividades recreativas como la pesca deportiva, rodeado de un hermoso y verde paisaje con temperatura templada en un ambiente relajante, donde podrá admirar al legendario volcán Popocatépetl. Metepec es el Centro Vacacional que le brinda la paz y tranquilidad que siempre ha buscado para toda su familia.
+
+VISITAR EL CENTRO VACACIONAL ATLIXCO METEPEC “ES SEGURO”, NO IMPLICA NINGÚN RIESGO EN CASO DE ERUPCIÓN VOLCÁNICA DEL POPOCATEPETL. Nuestro inmueble se encuentra fuera del alcance radial de la FASE 1 (14.33 km.) y FASE 2 (16.82 km.) emitida por la Dirección General de Protección Civil del Estado de Puebla en caso de erupción volcánica del Popocatépetl, no obstante se cuenta con un Programa Interno de Protección Civil, para brindar seguridad a todos nuestros visitantes.
+</h4>
+<center><h2>Conoce mas dando clic aqui</h2></center>
+
+  <div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1> Foto de metepec </h1>
+<div>
+<br>
+</div>
+<div>
+</div>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image44','','imagenes/metepec4.jpg',1)"><img src="imagenes/metepec1.jpg" width="475" height="266" id="Image44"></a></div>
+</div>
+</center>
+ </div>
+  </div>
+  <div data-role="footer" data-theme="b" data-position="fixed">
+  <h4>Tierra que Florece</h4>
+  </div>
+  </div>
+  
+  <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+  <h3>Viveros Cabrera</h3>
+  </div>
+<div data-role="content" align="center">
+  <div><h2>Conoce informacion acerca de los Viveros de atlixco </h2>
+  <div data-role="main" class="ui-content" align="center">
+  <div style="width:50%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+  <li class="ui-first-child ui-last-child">
+  <a href="https://www.yelp.com.mx/biz/viveros-cabrera-atlixco" data-role="button" id="beep">
+  <h6>clic Aquí</h6>
+  </a>
+  </li>
+  </ul>
+  </div>
+  </div>
+ 
+  <div data-role="main" class="ui-content" align="center">
+  <div style="width:50%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+  <li class="ui-first-child ui-last-child">
+  <a href="https://es.foursquare.com/v/viveros-de-cabrera/4cfc0b5cfeec6dcb44264a36" data-role="button" id="beep">
+  <h6>clic Aquí</h6>
+  </a>
+  </li>
+  </ul>
+  </div>
+  </div>
+  
+  <div data-role="main" class="ui-content" align="center">
+  <div style="width:50%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+  <li class="ui-first-child ui-last-child">
+  <a href="https://es.foursquare.com/v/viveros-de-cabrera/4cfc0b5cfeec6dcb44264a36" data-role="button" id="beep">
+  <h6>clic Aquí</h6>
+  </a>
+  </li>
+  </ul>
+  </div>
+  </div>
+ <center>
+  <div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1> Foto de los Viveros </h1>
+<div>
+<br>
+</div>
+<div>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image44','','imagenes/vive2.jpg',1)"><img src="imagenes/vive1.jpg" width="550" height="309" id="Image"></a></div>
+</div>
+</div>
+<div>
+</center>
+ </div>
+  </div>
+  <div data-role="footer" data-theme="b" data-position="fixed">
+  <h4>Tierra que Florece</h4>
+  </div>
+  </div>
+  
+  
+  <div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="b">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h2>CERRO DE SAN MIGUEL</h2>
+   </div>
+   <div data-role="content" aling="center">
+     <div>
+       <p><h4>Atlixco es uno de los municipios más bellos que tiene Puebla y además de contar con el mejor clima, también es un Pueblo Mágico. En este lugar se ubica el Cerro de San Miguel donde no se puede dejar de visitar la Capilla de San Miguel.
+ El origen de esta capilla como espacio consagrado a la devoción de San Miguel Arcángel, se remonta al siglo XVI. Como se ve el emplazamiento, inició con una ermita dependiente del convento, que evolucionó y se ha conservado a través de los años; al principio su uso fue esporádico, pues al parecer la congregación sólo hacía ceremonias en el día de fiesta.
+ El cerro también es  conocido como Popocatica (cerro que humea) o Macuilxochitpec (cerro de las cinco flores).
+ Se trata de un lugar en donde se realiza la fiesta máxima de Atlixco que se lleva a cabo el último domingo de septiembre y para la que se reúnen los representantes de las once regiones culturales de Puebla.
+ Puedes visitarlo en cualquier fecha, ya que  el lugar te ofrece una maravillosa vista panorámica y siempre puedes visitar la Capilla de San Miguel.
+ La Capilla de San Miguel Arcángel, fue construida exactamente en la cima del cerro del mismo nombre, por los misioneros asentados en la Colonia, tratando de sustituir a las deidades y los rituales prehispánicos; sin embargo, el cerrito conservó los restos de sus adoratorios originales.
+ Para llegar al Cerro de San Miguel Arcángel tendrá que caminar alrededor de  30 minutos para llegar a la cima, en donde contemplará una vista extraordinaria, un cielo azul completamente limpio y a lo lejos veremos cómo un montón de cerros rodean a esta bella ciudad.
+
+</h4></p>
+       <center>
+  <div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1> Foto de los Viveros </h1>
+<div>
+<br>
+</div>
+<div>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image44','','imagenes/cerro2.jpg',1)"><img src="imagenes/cerro1.jpg" width="300" height="300" id="Image2"></a></div>
+</div>
+</div>
+</center>
+</div>
+  </div>
+  <div data-role="footer" data-theme="b" data-position="fixed">
+       <h4>Tierra que Florece</h4>
+     </div>
+     </div>
+
+<div data-role="page" id="Pagina7" data-add-back-btn="true" data-theme="b">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h2>Fascinan avistamientos de OVNIS en Atlixco, Puebla</h2>
+   </div>
+    <div data-role="content" aling="center">
+      <div>
+         <center><h4> A finales de la década de los 80 y principios de los 90, se registraron avistamientos de objetos voladores anómalos muy luminosos sobre el municipio de Atlixco en Puebla.
+Destacándose la zona de La Casita Blanca, una casona que tenía en su interior un mecanismo para bombear el agua proveniente del deshielo de la nieve del volcán Popocatépetl. Según los lugareños, cada fin de semana cientos de personas llegaban a este sitio para mirar cómo pasaba el “Ovni boludo”. 
+En un recorrido por el monumento al Ovni, platiqué con personas de la zona, quienes me refirieron que en la década de los 90 —desde el día jueves hasta el domingo— se juntaban hasta mil personas con la intensión de ver al Ovni que salía entre las 19:00 a 19:15 horas de la parte superior de don Goyo y se dirigía hacia La Casita Blanca.
+“Era un objeto muy potente en su luz y ya cuando estaba cerca de nosotros se nos aventaba. El objeto se acercaba y todos los reunidos nos espantábamos. ¡Comenzaban a gritar!”, relató Aurelio Martínez.
+Incluso habitantes del centro de Atlixco confirmaron que tanto la policía como el Ejército fueron al sitio para retirar a la gente.
+A través de una columna periodística a finales de 1990 se dio a conocer el caso del contactado con extraterrestre, Paulino López López, una experiencia que impactó a los mexicanos en aquel momento. 
+En este viaje tuve la oportunidad de corroborar esa información, pues lo busqué y logré encontrarlo. 
+
+</h4>
+         </p>
+         <center>
+<div data-role="main" class="ui-content">
+ <div data-role="collapsible" data-content-theme="false">
+<h2>Foto del ovni</h2>
+<div>
+<br>
+</div>
+<div>
+<img src="imagenes/ovni1.jpg" width="300" height="300"></div>
+</div>
+</div>
+<div>
+</center>
+<center>
+<div data-role="main" class="ui-content">
+ <div data-role="collapsible" data-content-theme="false">
+<h2>Foto de ovni</h2>
+<div>
+<br>
+<div>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image44','','imagenes/ovni3.jpg',1)"><img src="imagenes/ovni1.jpg" width="480" height="360" id="Image3"></a></div>
+</div>
+<div>
+</center>
+    </div>
+  </div>
+   <div data-role="footer" data-them="b" data-position="fixed">
+         <h4>Tierra que Florece</h4>
+  </div>
+</div>
+
+
+ <div data-role="page" id="Pagina8" data-add-back-btn="true" data-theme="b">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+        <center>
+          <h2>Villa iluminada </h2></center>
+      </div>
+    <div data-role="content" aling="center">
+       <div>
+         <p><h4>Se mostraran acontinuación</h4>
+         <center>
+         <div data-role="main" class="ui-content">
+   <div data-role="collapsible" data-content-theme="false">
+<h2>VILLA ILUMINADA </h2>
+<div>
+<br>
+</div>
+<div>
+<img src="imagenes/villa3.jpg" width="300" height="300"></div>
+</div>
+</div>
+  <div>
+  </center>
+  <div data-role="collapsible" data-content-theme="false">
+<h2>VILLA ILUMINADA</h2>
+<div>
+<img src="imagenes/villa2.jpg" width="300" height="300"><br>
+</div>
+<div></div>
+</div>
+</div>
+  <div>
+  </center>
+  <div data-role="collapsible" data-content-theme="false">
+<h2>VILLA ILUMINADA </h2>
+<div>
+<br>
+</div>
+<div>
+</div>
+
+<img src="imagenes/villa1.jpg" width=300" height="300">  </div>
+</div>
+<center><h2>"Biografias"</h2></center>
+<div data-role="main" class="ui-content" align="center">
+  <div style="width:70%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+  <li class="ui-first-child ui-last-child">
+  <a href="http://archivo.eluniversal.com.mx/articulos/67468.html" data-role="button" id="beep">
+  <h6>historia de la villa</h6>
+  </a>
+  </li>
+  <br>
+
+  <li class="ui-first-child ui-last-child">
+     <a href="https://blog.seccionamarilla.com.mx/villa-iluminada-en-atlixco-puebla/" data-role="button" id="vibrar">
+      <h6>ubicacion</h6>
+  </a>
+  </li>
+   <br>
+
+  <li class="ui-first-child ui-last-child">
+     <a href="https://www.dondeir.com/2016/11/villa-iluminada-atlixco/" data-role="button" id="vibrar">
+      <h6>lugares</h6>
+  </a>
+  </li>
+  </ul>
+  </div>
+  </div>
+  
+  <div>
+  </div>
+    </div>
+    <div data-role="footer" data-theme="b" data-position="fixed">
+       <h4>Tierra que Florece</h4>
+     </div>
+   </div>
+   
+   
+</body>
+</html>
